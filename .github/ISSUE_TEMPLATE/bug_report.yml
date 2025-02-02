@@ -83,7 +83,7 @@ body:
       label: "Windows version"
       description: |
         What Windows version are you using?
-        To get that, press <kbd>Win</kbd> + <kbd>R</kbd> on your keyboard to open the Run prompt, then type `winver`.
+        To get that, press `Win` + `R` on your keyboard to open the Run prompt, then type `winver`.
       placeholder: "e.g. Version 24H2 (OS Build 26100.3037)"
   validations:
     required: true
