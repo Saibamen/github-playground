@@ -69,14 +69,6 @@ body:
   validations:
     required: true
 
-- type: input
-  id: dlss_swapper_version
-  attributes:
-    label: DLSS Swapper version
-    placeholder: e.g. 1.2.3
-  validations:
-    required: true
-
  - type: input
     id: windows_version
     attributes:
