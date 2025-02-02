@@ -74,7 +74,7 @@ body:
   attributes:
     label: "Windows version"
     description: |
-      What Windows version are you using?
+      Please provide the full Windows version you are using.
       To get that, press `Win` + `R` on your keyboard to open the Run prompt, then type `winver`.
     placeholder: "e.g. Version 24H2 (OS Build 26100.3037)"
   validations:
