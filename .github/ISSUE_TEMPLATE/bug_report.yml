@@ -69,13 +69,13 @@ body:
   validations:
     required: true
 
- - type: input
-    id: windows_version
-    attributes:
-      label: "Windows version"
-      description: |
-        What Windows version are you using?
-        To get that, press `Win` + `R` on your keyboard to open the Run prompt, then type `winver`.
-      placeholder: "e.g. Version 24H2 (OS Build 26100.3037)"
+- type: input
+  id: windows_version
+  attributes:
+    label: "Windows version"
+    description: |
+      What Windows version are you using?
+      To get that, press `Win` + `R` on your keyboard to open the Run prompt, then type `winver`.
+    placeholder: "e.g. Version 24H2 (OS Build 26100.3037)"
   validations:
     required: true
