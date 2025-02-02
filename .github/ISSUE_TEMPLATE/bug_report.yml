@@ -22,13 +22,12 @@ body:
   id: to_reproduce
   attributes:
     label: Steps To Reproduce
-    description: |
-      Steps to reproduce the behavior:
+    description: Steps to reproduce the behavior
+    placeholder: |
       1. Go to '...'
       2. Click on '...'
       3. Scroll down to '...'
       4. See error
-    placeholder: List steps to reproduce...
   validations:
     required: true
 
@@ -67,5 +66,24 @@ body:
   attributes:
     label: DLSS Swapper version
     placeholder: e.g. 1.2.3
+  validations:
+    required: true
+
+- type: input
+  id: dlss_swapper_version
+  attributes:
+    label: DLSS Swapper version
+    placeholder: e.g. 1.2.3
+  validations:
+    required: true
+
+ - type: input
+    id: windows_version
+    attributes:
+      label: "Windows version"
+      description: |
+        What Windows version are you using?
+        To get that, press <kbd>Win</kbd> + <kbd>R</kbd> on your keyboard to open the Run prompt, then type `winver`.
+      placeholder: "e.g. Version 24H2 (OS Build 26100.3037)"
   validations:
     required: true
